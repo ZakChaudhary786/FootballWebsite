@@ -1,0 +1,275 @@
+body { 
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Ubuntu";
+  font-weight: 900;
+}
+
+.sectionPadding{
+  padding-top: 250px;
+}
+
+#title{
+  background-color: #ED2939;
+  color: white;
+}
+
+
+.title-img{
+  position:absolute;
+  left: 15%;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navbar */
+
+.navbar{
+  text-align: center;
+  padding: 10px 200px;
+  background-color: #db1525;
+  margin: 0px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu"
+}
+
+#navTitle{
+  padding: 55px;
+  margin-left: 38px;
+} 
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.sticky-top.scroll {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Clock */
+#clock {
+  color:black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20px;
+}
+
+/*Title */
+
+.fixtures-button, .team-button{
+  margin: 5% 3% 5% 0;
+  font-size: 2rem;
+}
+
+.fixtures-button a,
+.team-button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.col-img{
+  text-align: right;
+}
+
+.title-img{
+  width: 50%;
+  position: relative;
+}
+
+/* Features */
+
+.features{
+  position: relative;
+  text-align: center;
+}
+
+.featureIcons{
+  color: #ff6363;
+  margin: 0 0 25px;
+}
+
+.featureIcons:hover{
+  color:#ED2939;
+}
+
+/* Testiminonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ED2939;
+  color: white;
+}
+
+.d-block {
+  border-radius: 50%;
+}
+
+.testImg{
+  width: 400px;
+  border-radius: 50%;
+  
+}
+
+.testimonialText{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.testNav {
+  color: white;
+}
+
+/* AutoVideos */
+
+.bgvid {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#videoHeader{
+  text-align: center;
+  padding-top: 75px;
+  font-size: 2.5rem;
+}
+
+#vidText{
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+/* Quiz */
+
+#quiz{
+  text-align: center;
+  color: white;
+  background-color:#ED2939;
+  padding: 20px;
+}
+
+#quizHeader{
+  padding: 0px 0px 50px 0px;
+}
+
+.answerSection{
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+/* Fixtures & Results */
+
+#fixtures, #results{
+  text-align:center;
+  font-family: "Montserrat-Black";
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#fixturesHeader, #resultsHeader{
+  padding-bottom: 40px;
+}
+
+#singleFixtures, #singleResults{
+  font-family: "Ubuntu";
+  padding: 30px, 0, 20px, 0;
+  margin-bottom: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* League Table */
+.table {
+  border: 2px solid;
+}
+
+#leagueTable{
+  background-color: #ED2939;
+}
+
+#premHeader {
+  color: white;
+  background-color:#D11221;
+}
+
+#premTeams {
+  background: #dedee0;
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+
+#leagueHeader{
+  text-align: center;
+  color: white;
+  padding: 25px 0px 40px 0px;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #ED2939;
+  text-align: center;
+}
+
+.footerIcons{
+  padding: 0px 100px 60px;
+  font-size: 50px;
+  color: white;
+}
+
+.footerIcons:hover{
+  color:dimgray;
+}
+
+#footerHeader {
+  padding-bottom: 60px;
+  font-size: 2.5rem;
+  color: white;
+}
+
+#copyright{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
